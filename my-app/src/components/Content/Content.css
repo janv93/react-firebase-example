@@ -1,0 +1,27 @@
+.content{
+    background-color:#009de0;
+}
+
+.formarea{
+    background-image: url('/firebaselogo.png');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:80vh;
+}
+
+.forms{
+    padding-top:38vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.form-control{
+    width:250px;
+    margin-top:1%;
+}
+
+.btn{
+    margin-top:1%;
+}

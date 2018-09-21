@@ -20,8 +20,7 @@ class Content extends Component {
 
         this.state = {
             email: '',
-            password: '',
-            value: ''
+            password: ''
         }
 
     }

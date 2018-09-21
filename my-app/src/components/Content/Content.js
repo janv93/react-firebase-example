@@ -59,7 +59,6 @@ class Content extends Component {
                         <input value={this.state.password} onChange={(text) => {
                             this.setState({password: text.target.value})
                         }} placeholder="Password" className="form-control" type="password"/>
-
                         <input value="Login" type="submit" className="btn btn-success"/>
                         <button onClick={this.register.bind(this)} className="btn btn-light">Register</button>
                     </form>
